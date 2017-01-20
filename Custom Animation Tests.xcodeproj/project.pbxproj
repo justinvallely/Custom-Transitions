@@ -12,6 +12,8 @@
 		EB82F67D1E318AC400ADEE3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB82F67B1E318AC400ADEE3F /* Main.storyboard */; };
 		EB82F67F1E318AC400ADEE3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB82F67E1E318AC400ADEE3F /* Assets.xcassets */; };
 		EB82F6821E318AC400ADEE3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB82F6801E318AC400ADEE3F /* LaunchScreen.storyboard */; };
+		EB82F68A1E318B5600ADEE3F /* galleryPresentAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB82F6891E318B5600ADEE3F /* galleryPresentAnimationController.swift */; };
+		EB82F68C1E318D5D00ADEE3F /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB82F68B1E318D5D00ADEE3F /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		EB82F67E1E318AC400ADEE3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB82F6811E318AC400ADEE3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB82F6831E318AC400ADEE3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB82F6891E318B5600ADEE3F /* galleryPresentAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = galleryPresentAnimationController.swift; path = "Animation Controllers/galleryPresentAnimationController.swift"; sourceTree = "<group>"; };
+		EB82F68B1E318D5D00ADEE3F /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 		EB82F6761E318AC400ADEE3F /* Custom Animation Tests */ = {
 			isa = PBXGroup;
 			children = (
+				EB82F6891E318B5600ADEE3F /* galleryPresentAnimationController.swift */,
 				EB82F6771E318AC400ADEE3F /* AppDelegate.swift */,
 				EB82F6791E318AC400ADEE3F /* ViewController.swift */,
+				EB82F68B1E318D5D00ADEE3F /* ViewController2.swift */,
 				EB82F67B1E318AC400ADEE3F /* Main.storyboard */,
 				EB82F67E1E318AC400ADEE3F /* Assets.xcassets */,
 				EB82F6801E318AC400ADEE3F /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB82F68A1E318B5600ADEE3F /* galleryPresentAnimationController.swift in Sources */,
+				EB82F68C1E318D5D00ADEE3F /* ViewController2.swift in Sources */,
 				EB82F67A1E318AC400ADEE3F /* ViewController.swift in Sources */,
 				EB82F6781E318AC400ADEE3F /* AppDelegate.swift in Sources */,
 			);
