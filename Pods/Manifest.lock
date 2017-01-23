@@ -1,0 +1,12 @@
+PODS:
+  - SwiftPhotoGallery (3.0.1)
+
+DEPENDENCIES:
+  - SwiftPhotoGallery
+
+SPEC CHECKSUMS:
+  SwiftPhotoGallery: 004cad817138f4f418aca417aa018d69ebc2fb14
+
+PODFILE CHECKSUM: 641a6220add127d449751c51a22779472e270562
+
+COCOAPODS: 1.1.1
