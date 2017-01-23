@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14DCFF5A2307471AC3CA06FC49DD63A5 /* SwiftPhotoGallery-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B25F12FA6CC5F1332A165EA2EB6C1AA1 /* SwiftPhotoGallery-dummy.m */; };
+		110E3A1F0473107C3E4A1CBB18F96BB3 /* SwiftPhotoGallery-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F024AFC635C9733F36A370796E6EB0 /* SwiftPhotoGallery-dummy.m */; };
 		3EB7EA026A95CB3D1117F9E09334BD9B /* Pods-Custom Animation Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE275F0A0FC85383541D333409E8BC9E /* Pods-Custom Animation Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		444CB2EB11E2674C1F09F303B6B612EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
 		4845CC7C48324B6458F776C4631CC0E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 		6EBEF65DDF4E8A336C461096A7567AE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		80EEBE3D9993F21ECC092911D70F5600 /* SwiftPhotoGalleryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167F429C0B6BBBC0CEE82CBD3AF235FD /* SwiftPhotoGalleryCell.swift */; };
 		8210E2E660F17D2F4EE4FD14C06DDA6F /* Pods-Custom Animation Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A432B3B91F6AAC1EEB3C7A786CC325CD /* Pods-Custom Animation Tests-dummy.m */; };
-		96BB31CE2C87DF9567C0FAD6F1B86C8A /* SwiftPhotoGallery-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A673E023A1522E7E29DBFC588449710A /* SwiftPhotoGallery-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B513FAE7B8FAA9F28B2E89E954335B1A /* SwiftPhotoGalleryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34490E9A50EE0AAE237F6AE1811C6AB /* SwiftPhotoGalleryCell.swift */; };
-		D301B17D82D625D8D6B3B5854B812227 /* SwiftPhotoGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5E5831433B38F8B378CDFBD14794AF /* SwiftPhotoGallery.swift */; };
+		96BB31CE2C87DF9567C0FAD6F1B86C8A /* SwiftPhotoGallery-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31CA5EDD1B6BF9E06F5E570D6C573BBC /* SwiftPhotoGallery-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6D10881287FB5E06F62A7B99C86DE4B /* SwiftPhotoGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C231009829D3506E5DE797A2F00F1FC /* SwiftPhotoGallery.swift */; };
+		FC26521F00352B99B32316123E9DA2CD /* PanDirectionGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC022B935E1E2280434F02EF88EB3544 /* PanDirectionGestureRecognizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,28 +30,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A321C532FEF86F3AE52AACCE644B3A6 /* SwiftPhotoGallery.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftPhotoGallery.modulemap; sourceTree = "<group>"; };
 		0BBD86F0913DC87B4E54EAD3EC5D39AF /* Pods-Custom Animation Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Custom Animation Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1E895998CC430260E55FCFAFC38C5779 /* SwiftPhotoGallery-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftPhotoGallery-prefix.pch"; sourceTree = "<group>"; };
+		167F429C0B6BBBC0CEE82CBD3AF235FD /* SwiftPhotoGalleryCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SwiftPhotoGalleryCell.swift; sourceTree = "<group>"; };
+		1C64495DAACCC19EF1651D855E2C7110 /* SwiftPhotoGallery.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftPhotoGallery.xcconfig; sourceTree = "<group>"; };
 		24F236B625E850C5480347DA79D3751B /* SwiftPhotoGallery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftPhotoGallery.framework; path = SwiftPhotoGallery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31CA5EDD1B6BF9E06F5E570D6C573BBC /* SwiftPhotoGallery-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftPhotoGallery-umbrella.h"; sourceTree = "<group>"; };
 		340443C7EFC9E500F12175FD40BD667D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		386E2A12E1DE91802EA07404BF5DDBFC /* Pods-Custom Animation Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Custom Animation Tests-frameworks.sh"; sourceTree = "<group>"; };
 		3F588762D440BE21E8CEC4EA9A2054D5 /* Pods_Custom_Animation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Custom_Animation_Tests.framework; path = "Pods-Custom Animation Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		401F6DC6C830883C75BA5823A89A8D3C /* SwiftPhotoGallery.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftPhotoGallery.modulemap; sourceTree = "<group>"; };
+		4C231009829D3506E5DE797A2F00F1FC /* SwiftPhotoGallery.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SwiftPhotoGallery.swift; sourceTree = "<group>"; };
 		4F3EE66721AA22A9BECA8962DE656860 /* Pods-Custom Animation Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Custom Animation Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		789BA82AE618836AE0ECCE6E9EDBE386 /* Pods-Custom Animation Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Custom Animation Tests-resources.sh"; sourceTree = "<group>"; };
 		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		8954908C799651BD0CF3F3E298301FAA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A34490E9A50EE0AAE237F6AE1811C6AB /* SwiftPhotoGalleryCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftPhotoGalleryCell.swift; path = Pod/Classes/SwiftPhotoGalleryCell.swift; sourceTree = "<group>"; };
 		A432B3B91F6AAC1EEB3C7A786CC325CD /* Pods-Custom Animation Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Custom Animation Tests-dummy.m"; sourceTree = "<group>"; };
-		A673E023A1522E7E29DBFC588449710A /* SwiftPhotoGallery-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftPhotoGallery-umbrella.h"; sourceTree = "<group>"; };
 		A78E0F646CD0F4A074082C573A5D37A2 /* Pods-Custom Animation Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Custom Animation Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B25F12FA6CC5F1332A165EA2EB6C1AA1 /* SwiftPhotoGallery-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftPhotoGallery-dummy.m"; sourceTree = "<group>"; };
+		AA86376B4AE9021F4F0D5DF9E3EA307B /* SwiftPhotoGallery-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftPhotoGallery-prefix.pch"; sourceTree = "<group>"; };
 		BD35FC7A93D279D85E9879F0F1264381 /* Pods-Custom Animation Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Custom Animation Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D4E141A2AB30FA88CB71EE2295ECE90C /* SwiftPhotoGallery.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftPhotoGallery.xcconfig; sourceTree = "<group>"; };
+		D1F024AFC635C9733F36A370796E6EB0 /* SwiftPhotoGallery-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftPhotoGallery-dummy.m"; sourceTree = "<group>"; };
+		DA51739A911914156418E8D73A67D99E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E674BC524883F6DF8CC01234414FDBFA /* Pods-Custom Animation Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Custom Animation Tests.modulemap"; sourceTree = "<group>"; };
-		FC5E5831433B38F8B378CDFBD14794AF /* SwiftPhotoGallery.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftPhotoGallery.swift; path = Pod/Classes/SwiftPhotoGallery.swift; sourceTree = "<group>"; };
+		FC022B935E1E2280434F02EF88EB3544 /* PanDirectionGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PanDirectionGestureRecognizer.swift; sourceTree = "<group>"; };
 		FE275F0A0FC85383541D333409E8BC9E /* Pods-Custom Animation Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Custom Animation Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,12 +77,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2517647B08C4F5FE0448FF46741E912A /* Pods */ = {
+		38080B11745B23B0ADFB7B67F3DA9B8B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				9C8D9DF2E49D619B3B4D05D1DAF7CAC0 /* SwiftPhotoGallery */,
+				B45A545AAC96059C40446D6A16E6FB70 /* Classes */,
 			);
-			name = Pods;
+			name = Pod;
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		41112C9629A4D916B960307EF93CEAA9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA51739A911914156418E8D73A67D99E /* Info.plist */,
+				401F6DC6C830883C75BA5823A89A8D3C /* SwiftPhotoGallery.modulemap */,
+				1C64495DAACCC19EF1651D855E2C7110 /* SwiftPhotoGallery.xcconfig */,
+				D1F024AFC635C9733F36A370796E6EB0 /* SwiftPhotoGallery-dummy.m */,
+				AA86376B4AE9021F4F0D5DF9E3EA307B /* SwiftPhotoGallery-prefix.pch */,
+				31CA5EDD1B6BF9E06F5E570D6C573BBC /* SwiftPhotoGallery-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Custom Animation Tests/Pods/Target Support Files/SwiftPhotoGallery";
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -100,40 +117,25 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7639B452F7E87866B26A9D4840BBE588 /* Support Files */ = {
+		750438595F6DD381AD23ECAA0302A9EE /* SwiftPhotoGallery */ = {
 			isa = PBXGroup;
 			children = (
-				8954908C799651BD0CF3F3E298301FAA /* Info.plist */,
-				0A321C532FEF86F3AE52AACCE644B3A6 /* SwiftPhotoGallery.modulemap */,
-				D4E141A2AB30FA88CB71EE2295ECE90C /* SwiftPhotoGallery.xcconfig */,
-				B25F12FA6CC5F1332A165EA2EB6C1AA1 /* SwiftPhotoGallery-dummy.m */,
-				1E895998CC430260E55FCFAFC38C5779 /* SwiftPhotoGallery-prefix.pch */,
-				A673E023A1522E7E29DBFC588449710A /* SwiftPhotoGallery-umbrella.h */,
+				38080B11745B23B0ADFB7B67F3DA9B8B /* Pod */,
+				41112C9629A4D916B960307EF93CEAA9 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftPhotoGallery";
-			sourceTree = "<group>";
+			name = SwiftPhotoGallery;
+			path = /Users/justinvallely/Documents/apps/SwiftPhotoGallery;
+			sourceTree = "<absolute>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A325F3FBD4EA17C1DDDBD7835A5C4F1D /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				2517647B08C4F5FE0448FF46741E912A /* Pods */,
 				6366099A9907FF70CDA5AACDA9184933 /* Products */,
 				CBB87C37D1FE359615456E3AA18CB347 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		9C8D9DF2E49D619B3B4D05D1DAF7CAC0 /* SwiftPhotoGallery */ = {
-			isa = PBXGroup;
-			children = (
-				FC5E5831433B38F8B378CDFBD14794AF /* SwiftPhotoGallery.swift */,
-				A34490E9A50EE0AAE237F6AE1811C6AB /* SwiftPhotoGalleryCell.swift */,
-				7639B452F7E87866B26A9D4840BBE588 /* Support Files */,
-			);
-			name = SwiftPhotoGallery;
-			path = SwiftPhotoGallery;
 			sourceTree = "<group>";
 		};
 		9E42FF948B391E052D9BE4ACCFDA0CAC /* Pods-Custom Animation Tests */ = {
@@ -152,6 +154,25 @@
 			);
 			name = "Pods-Custom Animation Tests";
 			path = "Target Support Files/Pods-Custom Animation Tests";
+			sourceTree = "<group>";
+		};
+		A325F3FBD4EA17C1DDDBD7835A5C4F1D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				750438595F6DD381AD23ECAA0302A9EE /* SwiftPhotoGallery */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B45A545AAC96059C40446D6A16E6FB70 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FC022B935E1E2280434F02EF88EB3544 /* PanDirectionGestureRecognizer.swift */,
+				4C231009829D3506E5DE797A2F00F1FC /* SwiftPhotoGallery.swift */,
+				167F429C0B6BBBC0CEE82CBD3AF235FD /* SwiftPhotoGalleryCell.swift */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		CBB87C37D1FE359615456E3AA18CB347 /* Targets Support Files */ = {
@@ -215,7 +236,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCD4DBF6BB1E17DA2519BD86DA4ACE35 /* Build configuration list for PBXNativeTarget "SwiftPhotoGallery" */;
 			buildPhases = (
-				AF14E9732BFAE0B6EA121F844B84C075 /* Sources */,
+				3EEC912352B3F755470897AF29904B1C /* Sources */,
 				2AA57448B7BD7B4DF7BE5C307500FDAD /* Frameworks */,
 				7462BC08391538D413C3E13BB72492BF /* Headers */,
 			);
@@ -256,21 +277,22 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3EEC912352B3F755470897AF29904B1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC26521F00352B99B32316123E9DA2CD /* PanDirectionGestureRecognizer.swift in Sources */,
+				110E3A1F0473107C3E4A1CBB18F96BB3 /* SwiftPhotoGallery-dummy.m in Sources */,
+				B6D10881287FB5E06F62A7B99C86DE4B /* SwiftPhotoGallery.swift in Sources */,
+				80EEBE3D9993F21ECC092911D70F5600 /* SwiftPhotoGalleryCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4225E01CEDFB91EEEA99293AED05BA5D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8210E2E660F17D2F4EE4FD14C06DDA6F /* Pods-Custom Animation Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AF14E9732BFAE0B6EA121F844B84C075 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				14DCFF5A2307471AC3CA06FC49DD63A5 /* SwiftPhotoGallery-dummy.m in Sources */,
-				D301B17D82D625D8D6B3B5854B812227 /* SwiftPhotoGallery.swift in Sources */,
-				B513FAE7B8FAA9F28B2E89E954335B1A /* SwiftPhotoGalleryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +310,7 @@
 /* Begin XCBuildConfiguration section */
 		0FAA6AB598878F95973DDE94E3BF473E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4E141A2AB30FA88CB71EE2295ECE90C /* SwiftPhotoGallery.xcconfig */;
+			baseConfigurationReference = 1C64495DAACCC19EF1651D855E2C7110 /* SwiftPhotoGallery.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -395,7 +417,7 @@
 		};
 		BBCD1BD59BD9EAD7F3FFE5EE990470EB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4E141A2AB30FA88CB71EE2295ECE90C /* SwiftPhotoGallery.xcconfig */;
+			baseConfigurationReference = 1C64495DAACCC19EF1651D855E2C7110 /* SwiftPhotoGallery.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

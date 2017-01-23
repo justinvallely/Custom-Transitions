@@ -6,6 +6,7 @@ target 'Custom Animation Tests' do
   use_frameworks!
 
   # Pods for Custom Animation Tests
-  pod 'SwiftPhotoGallery'
+#  pod 'SwiftPhotoGallery'
+  pod "SwiftPhotoGallery", :path => "/Users/justinvallely/Documents/apps/SwiftPhotoGallery"
 
 end

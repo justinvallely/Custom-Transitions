@@ -7,48 +7,59 @@
 //
 
 import UIKit
+import SwiftPhotoGallery
 
 class ViewController: UIViewController {
 
     fileprivate let galleryPresentAnimationController = GalleryPresentAnimationController()
-
     
     @IBOutlet weak var heroImage: UIImageView!
 
     @IBAction func buttonAction(_ sender: Any) {
-        performSegue(withIdentifier: "showFullScreenImage", sender: self)
-    }
 
-    @IBAction func prepare(forUnwind segue: UIStoryboardSegue) {
+        let gallery = SwiftPhotoGallery(delegate: self, dataSource: self)
+        gallery.backgroundColor = UIColor.black
+        gallery.hideStatusBar = false
+        gallery.modalPresentationCapturesStatusBarAppearance = true
+        gallery.transitioningDelegate = self
+
+        present(gallery, animated: true, completion: nil)
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        super.prepare(for: segue, sender: sender)
-        let toVC = segue.destination as? ViewController2
-
-        toVC?.transitioningDelegate = self
-    }
-
 }
 
+
+// MARK: Transition Delegate Methods
 extension ViewController: UIViewControllerTransitioningDelegate {
 
     func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         galleryPresentAnimationController.originFrame = heroImage.frame
         return galleryPresentAnimationController
     }
+}
 
-    //    func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-    //        flipDismissAnimationController.destinationFrame = cardView.frame
-    //        return flipDismissAnimationController
-    //    }
-    //
-    //    func interactionControllerForDismissal(using animator: UIViewControllerAnimatedTransitioning) -> UIViewControllerInteractiveTransitioning? {
-    //        return swipeInteractionController.interactionInProgress ? swipeInteractionController : nil
-    //    }
-    
+
+// MARK: SwiftPhotoGallery DataSource Methods
+extension ViewController: SwiftPhotoGalleryDataSource {
+
+    func numberOfImagesInGallery(gallery:SwiftPhotoGallery) -> Int {
+        return 1
+    }
+
+    func imageInGallery(gallery:SwiftPhotoGallery, forIndex:Int) -> UIImage? {
+        return #imageLiteral(resourceName: "skilodge")
+    }
+}
+
+
+// MARK: SwiftPhotoGallery Delegate Methods
+extension ViewController: SwiftPhotoGalleryDelegate {
+
+    func galleryDidTapToClose(gallery: SwiftPhotoGallery) {
+        dismiss(animated: true, completion: nil)
+    }
 }

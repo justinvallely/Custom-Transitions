@@ -2,11 +2,15 @@ PODS:
   - SwiftPhotoGallery (3.0.1)
 
 DEPENDENCIES:
-  - SwiftPhotoGallery
+  - SwiftPhotoGallery (from `/Users/justinvallely/Documents/apps/SwiftPhotoGallery`)
+
+EXTERNAL SOURCES:
+  SwiftPhotoGallery:
+    :path: /Users/justinvallely/Documents/apps/SwiftPhotoGallery
 
 SPEC CHECKSUMS:
-  SwiftPhotoGallery: 004cad817138f4f418aca417aa018d69ebc2fb14
+  SwiftPhotoGallery: 1408314a73bb4883ec4044aad51529284de0793f
 
-PODFILE CHECKSUM: 641a6220add127d449751c51a22779472e270562
+PODFILE CHECKSUM: c628fa55f680986781f5f8a655325a46ae88ee06
 
 COCOAPODS: 1.1.1

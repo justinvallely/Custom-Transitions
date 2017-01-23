@@ -32,7 +32,6 @@
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mma-Nm-7kg"/>
-                                    <segue destination="dV3-n0-Jt0" kind="presentation" identifier="showFullScreenImage" id="DB9-eX-GSh"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -51,49 +50,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-        </scene>
-        <!--View Controller2-->
-        <scene sceneID="kMc-fs-Fg6">
-            <objects>
-                <viewController id="dV3-n0-Jt0" customClass="ViewController2" customModule="Custom_Animation_Tests" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Wha-mB-6Tx"/>
-                        <viewControllerLayoutGuide type="bottom" id="hgf-yK-4sJ"/>
-                    </layoutGuides>
-                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="rl3-Co-KUu">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skilodge" translatesAutoresizingMaskIntoConstraints="NO" id="Wwq-Qk-STM">
-                                <rect key="frame" x="-0.5" y="233" width="375" height="200"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="sbQ-sG-qDQ"/>
-                                </constraints>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="detailDisclosure" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ozp-2w-L2w">
-                                <rect key="frame" x="333" y="40" width="22" height="22"/>
-                                <connections>
-                                    <segue destination="xrZ-kZ-h2m" kind="unwind" unwindAction="prepareForUnwind:" id="vzB-Wg-eBw"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="Wwq-Qk-STM" firstAttribute="centerX" secondItem="rl3-Co-KUu" secondAttribute="centerX" id="12F-EO-61T"/>
-                            <constraint firstItem="ozp-2w-L2w" firstAttribute="top" secondItem="Wha-mB-6Tx" secondAttribute="bottom" constant="20" id="I9g-ed-byw"/>
-                            <constraint firstItem="Wwq-Qk-STM" firstAttribute="width" secondItem="rl3-Co-KUu" secondAttribute="width" id="W12-cX-QPh"/>
-                            <constraint firstItem="Wwq-Qk-STM" firstAttribute="centerY" secondItem="rl3-Co-KUu" secondAttribute="centerY" id="m5P-kS-SM9"/>
-                            <constraint firstAttribute="trailing" secondItem="ozp-2w-L2w" secondAttribute="trailing" constant="20" id="zqX-dY-oum"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="imageView" destination="Wwq-Qk-STM" id="O4i-5x-ry5"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ADh-hT-64F" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="xrZ-kZ-h2m" userLabel="Exit" sceneMemberID="exit"/>
-            </objects>
-            <point key="canvasLocation" x="1946" y="175"/>
+            <point key="canvasLocation" x="361" y="25"/>
         </scene>
     </scenes>
     <resources>
