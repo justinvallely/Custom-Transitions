@@ -10,9 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var heroView: UIView!
-
     fileprivate let galleryPresentAnimationController = GalleryPresentAnimationController()
+
+    
+    @IBOutlet weak var heroImage: UIImageView!
 
     @IBAction func buttonAction(_ sender: Any) {
         performSegue(withIdentifier: "showFullScreenImage", sender: self)
@@ -23,10 +24,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        super.prepare(for: segue, sender: sender)
         let toVC = segue.destination as? ViewController2
 
         toVC?.transitioningDelegate = self
@@ -37,7 +38,7 @@ class ViewController: UIViewController {
 extension ViewController: UIViewControllerTransitioningDelegate {
 
     func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-        galleryPresentAnimationController.originFrame = heroView.frame
+        galleryPresentAnimationController.originFrame = heroImage.frame
         return galleryPresentAnimationController
     }
 

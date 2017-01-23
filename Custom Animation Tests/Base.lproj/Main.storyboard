@@ -21,22 +21,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dos-FC-yM4">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skilodge" translatesAutoresizingMaskIntoConstraints="NO" id="YLO-KS-P1G">
                                 <rect key="frame" x="0.0" y="20" width="375" height="200"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skilodge" translatesAutoresizingMaskIntoConstraints="NO" id="YLO-KS-P1G">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
-                                    </imageView>
-                                </subviews>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="YLO-KS-P1G" secondAttribute="bottom" id="Gfc-6I-OEp"/>
-                                    <constraint firstAttribute="trailing" secondItem="YLO-KS-P1G" secondAttribute="trailing" id="NrJ-1f-AgU"/>
-                                    <constraint firstItem="YLO-KS-P1G" firstAttribute="leading" secondItem="dos-FC-yM4" secondAttribute="leading" id="RdJ-Qf-Za6"/>
-                                    <constraint firstItem="YLO-KS-P1G" firstAttribute="top" secondItem="dos-FC-yM4" secondAttribute="top" id="jNv-Fl-ICo"/>
-                                    <constraint firstAttribute="height" constant="200" id="vND-9e-FPH"/>
+                                    <constraint firstAttribute="height" constant="200" id="JGr-UI-rjL"/>
                                 </constraints>
-                            </view>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9DD-6z-VOV">
                                 <rect key="frame" x="164" y="247" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
@@ -46,17 +36,17 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="dos-FC-yM4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="1gx-r9-pZP"/>
-                            <constraint firstAttribute="trailing" secondItem="dos-FC-yM4" secondAttribute="trailing" id="Chu-7m-9Fg"/>
-                            <constraint firstItem="9DD-6z-VOV" firstAttribute="top" secondItem="dos-FC-yM4" secondAttribute="bottom" constant="27" id="Ppu-zY-Fw6"/>
-                            <constraint firstItem="dos-FC-yM4" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="lQi-aL-UAs"/>
+                            <constraint firstItem="YLO-KS-P1G" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8SY-w9-4Mc"/>
+                            <constraint firstAttribute="trailing" secondItem="YLO-KS-P1G" secondAttribute="trailing" id="Il2-AS-3xM"/>
+                            <constraint firstItem="9DD-6z-VOV" firstAttribute="top" secondItem="YLO-KS-P1G" secondAttribute="bottom" constant="27" id="bTb-Gg-7Dz"/>
+                            <constraint firstItem="YLO-KS-P1G" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="nM8-S4-ID5"/>
                             <constraint firstItem="9DD-6z-VOV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ykw-i0-NHs"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="heroView" destination="dos-FC-yM4" id="LYa-Rg-xVa"/>
+                        <outlet property="heroImage" destination="YLO-KS-P1G" id="vzt-m2-BHd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -70,7 +60,7 @@
                         <viewControllerLayoutGuide type="top" id="Wha-mB-6Tx"/>
                         <viewControllerLayoutGuide type="bottom" id="hgf-yK-4sJ"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="rl3-Co-KUu">
+                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="rl3-Co-KUu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -96,11 +86,14 @@
                             <constraint firstAttribute="trailing" secondItem="ozp-2w-L2w" secondAttribute="trailing" constant="20" id="zqX-dY-oum"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="Wwq-Qk-STM" id="O4i-5x-ry5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ADh-hT-64F" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="xrZ-kZ-h2m" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="831" y="38"/>
+            <point key="canvasLocation" x="1946" y="175"/>
         </scene>
     </scenes>
     <resources>
